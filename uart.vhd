@@ -12,7 +12,7 @@ ENTITY uart IS
   PORT(
     clk      :  IN   STD_LOGIC;                             --reloj del sistema
     rx       :  IN   STD_LOGIC;                             --pin de recepción
-    rx_data  :  OUT  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0)); --datos recividos
+    rx_data  :  OUT  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0)); --datos recibidos
 END uart;
     
 ARCHITECTURE logic OF uart IS
